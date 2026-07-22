@@ -28,3 +28,6 @@ if(speed != 0) {
 		image_angle += speed;
 	}else image_angle += -speed;
 }
+//destravar a bola
+if (y > 745) y = 704
+if (y < 85) y = 120

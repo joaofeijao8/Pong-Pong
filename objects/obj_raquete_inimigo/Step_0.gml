@@ -19,7 +19,7 @@ if(global.bot && global.sala == 1){//se o bot estiver on
 	
 	}else{
 		if (vspeed < 0){
-			vspeed += 2*acel;
+			vspeed += 2.5*acel;
 		}}
 	
 	if (y < 745 - tamanho && global.direcaoBola == 0 && vspeed < maxSpeed&& global.ybola > y - (tamanho/2))
